@@ -2,18 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="cssreset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/oft5wkk.css">
+    <script src="https://kit.fontawesome.com/c64c6da328.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <header class="header">
         <div class="header__top">
-           <div class="container">
-                <img src="img/logo.png" alt="logo" class="header__logo">
+            <div class="container">
+                <img class="header__logo" src="img/logo.png" alt="logo">
+                <div class="header__icons">
+                    <a href="#" class="icons__cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a href="#" class="icons__wants">
+                        <i class="fas fa-heart"></i>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="header__content">
+            <div class="container">
+                <nav class="header__nav">
+                    <ul>
+                        <li>Home</li>
+                        <li>Women</li>
+                        <li>Men</li>
+                        <li>About us</li>
+                        <li>Blog</li>
+                        <li>Collectons</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+             </div>
         </div>
     </header>
 </body>
