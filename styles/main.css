@@ -19,8 +19,16 @@ ul, li {
     padding: 0;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
+.icon {
+    font-size: 18px;
+}
+
 .header__top {
-    background: #a57ee7;
+    background-color: #a57ee7;
 }
 
 .container {
@@ -41,10 +49,97 @@ ul, li {
     padding: 0 14px;
 }
 
-.header__icons {
-    font-size: 18px;
-}
-
 .header__content {
     background-color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.header__content .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.search-box {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    padding: 0 10px;
+    height: 45px;
+    border: 1px solid #000;
+    border-radius: 45px;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.search-box i {
+    margin: 0 15px 0 0;
+    color: #b2b2b2;
+}
+
+.header__icon-account {
+    margin: 0 0 0 10px;
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header__promotion .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__promotion > h1 {
+    font-weight: 800;
+    letter-spacing: 10px;
+}
+
+.header__left {
+    width: 50%;
+}
+
+.header__right {
+    width: 50%;
+}
+
+.header__title_regular {
+    font-weight: 400;
+}
+
+
+.header__shop-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    font-size: 17px;
+    background-color: #a57ee7;
+    border: 0;
+    border: 3px solid #7a5cad;
+    padding: 25px 45px;
+}
+
+.dark {
+    background-color: #1a2730;
+    color: #fff;
+}
+
+.right__text {
+    display: inline-block;
+    text-align: center;
+    background-color: #1a2730;
+    color: #fff;
+    padding: 12px 75px;
 }

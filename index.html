@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/oft5wkk.css">
+    <link rel="stylesheet" href="styles/cssreset.css">
     <script src="https://kit.fontawesome.com/c64c6da328.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -17,28 +18,53 @@
                 <img class="header__logo" src="img/logo.png" alt="logo">
                 <div class="header__icons">
                     <a href="#" class="icons__cart">
-                        <i class="fas fa-shopping-cart"></i>
+                        <i class="fas fa-shopping-cart icon"></i>
                     </a>
                     <a href="#" class="icons__wants">
-                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart icon"></i>
                     </a>
                 </div>
             </div>
         </div>
         <div class="header__content">
             <div class="container">
-                <nav class="header__nav">
-                    <ul>
-                        <li>Home</li>
-                        <li>Women</li>
-                        <li>Men</li>
-                        <li>About us</li>
-                        <li>Blog</li>
-                        <li>Collectons</li>
-                        <li>Contact</li>
-                    </ul>
-                </nav>
+                <ul class="menu">
+                    <li><a href="#" class="menu__link">Home</a></li>
+                    <li><a href="#" class="menu__link">Women</a></li>
+                    <li><a href="#" class="menu__link">Men</a></li>
+                    <li><a href="#" class="menu__link">About us</a> </li>
+                    <li><a href="#" class="menu__link">Blog</a></li>
+                    <li><a href="#" class="menu__link">Collectons</a></li>
+                    <li><a href="#" class="menu__link">Contact</a></li>
+                </ul>
+                <div class="search-box" action="">
+                    <a href="#" class="search-btn"><i class="fas fa-search icon"></i></a>
+                    <input class="search-bar" type="search" placeholder="Search...">
+                </div>
+                <div class="header__account">
+                    <a href="#" class="header__icon-account">My account</a>
+                    <a href="#" class="header__icon-account">
+                        <i class="fas fa-user-circle icon"></i>
+                    </a>
+                </div>
              </div>
+        </div>
+        <div class="header__promotion">
+            <div class="container">
+                <div class="header__left">
+                    <div class="left__title">
+                        <h1 class="header__title">Chill weekend</h1>
+                        <h1 class="header__title_regular">Scenes</h1>
+                    </div>
+                    <a href="#" class="header__shop-btn">shop now</a>
+                </div>
+                <div class="header__right">
+                    <p class="right__text">This mini style is made from tan leather</p>
+                    <h1 class="right__title">Peekaboo micro</h1>
+                    <h1 class="right__title">inspiration for spring</h1>
+                    <a href="#" class="header__shop-btn dark">shop now</a>
+                </div>
+            </div>
         </div>
     </header>
 </body>
