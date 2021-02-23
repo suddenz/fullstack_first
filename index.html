@@ -8,69 +8,163 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/oft5wkk.css">
-    <link rel="stylesheet" href="styles/cssreset.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <script src="https://kit.fontawesome.com/c64c6da328.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Franco Shop</title>
 </head>
 
 <body>
+   <!-- header -->
     <header class="header">
         <div class="header-top">
             <div class="container">
-                <img class="header-top__logo" src="img/logo.png" alt="logo">
-                <div class="header-top-icons">
-                    <a href="#" class="header-top-icons__cart">
-                        <i class="fas fa-shopping-cart icon"></i>
-                    </a>
-                    <a href="#" class="header-top-icons__wants">
-                        <i class="fas fa-heart icon"></i>
-                    </a>
+                <div class="header-top-inner">
+                    <img class="logo" src="img/logo.png" alt="logo">
+                    <div class="header-top-icons">
+                        <a href="#" class="header-top-icons__cart">
+                            <svg class="shoping-cart icon"viewBox="0 -31 512.00026 512" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m164.960938 300.003906h.023437c.019531 0 .039063-.003906.058594-.003906h271.957031c6.695312 0 12.582031-4.441406 14.421875-10.878906l60-210c1.292969-4.527344.386719-9.394532-2.445313-13.152344-2.835937-3.757812-7.269531-5.96875-11.976562-5.96875h-366.632812l-10.722657-48.253906c-1.527343-6.863282-7.613281-11.746094-14.644531-11.746094h-90c-8.285156 0-15 6.714844-15 15s6.714844 15 15 15h77.96875c1.898438 8.550781 51.3125 230.917969 54.15625 243.710938-15.941406 6.929687-27.125 22.824218-27.125 41.289062 0 24.8125 20.1875 45 45 45h272c8.285156 0 15-6.714844 15-15s-6.714844-15-15-15h-272c-8.269531 0-15-6.730469-15-15 0-8.257812 6.707031-14.976562 14.960938-14.996094zm312.152343-210.003906-51.429687 180h-248.652344l-40-180zm0 0"/>
+                                <path d="m150 405c0 24.8125 20.1875 45 45 45s45-20.1875 45-45-20.1875-45-45-45-45 20.1875-45 45zm45-15c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"/><path d="m362 405c0 24.8125 20.1875 45 45 45s45-20.1875 45-45-20.1875-45-45-45-45 20.1875-45 45zm45-15c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="header-top-icons__wants">
+                            <svg class="heart icon" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 471.701 471.701">
+                                <g>
+                                    <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+                                    c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3
+                                    l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,38.3-92.4
+                                    C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3
+                                    s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4
+                                    c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3
+                                    C444.801,187.101,434.001,213.101,414.401,232.701z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="header-content">
             <div class="container">
-                <ul class="header-content-menu">
-                    <li><a href="#" class="header-content-menu__link">Home</a></li>
-                    <li><a href="#" class="menu__link">Women</a></li>
-                    <li><a href="#" class="header-content-menu__link">Men</a></li>
-                    <li><a href="#" class="header-content-menu__link">About us</a> </li>
-                    <li><a href="#" class="header-content-menu__link">Blog</a></li>
-                    <li><a href="#" class="header-content-menu__link">Collectons</a></li>
-                    <li><a href="#" class="header-content-menu__link">Contact</a></li>
-                </ul>
-                <div class="header-content-search" action="">
-                    <a href="#" class="header-content-search__button"><i class="fas fa-search icon"></i></a>
-                    <input class="header-content-search__bar" type="search" placeholder="Search...">
-                </div>
-                <div class="header-content-account">
-                    <a href="#" class="header-content-account__account-link">My account</a>
-                    <a href="#" class="header-content-account__account-icon">
-                        <i class="fas fa-user-circle icon"></i>
-                    </a>
+                <div class="header-content-inner">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__item-link active">Home</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__item-link active">Women</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__item-link active">Men</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__item-link active">About us</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__item-link active">Blog</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__item-link active">Collections</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__item-link active">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-content-search" action="">
+                        <a href="#" class="header-content-search__button">
+                            <svg class="search icon" xmlns="http://www.w3.org/2000/svg"xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.005 512.005" >
+                                <g>
+                                    <path d="M505.749,475.587l-145.6-145.6c28.203-34.837,45.184-79.104,45.184-127.317c0-111.744-90.923-202.667-202.667-202.667S0,90.925,0,202.669s90.923,202.667,202.667,202.667c48.213,0,92.48-16.981,127.317-45.184l145.6,145.6c4.16,4.16,9.621,6.251,15.083,6.251s10.923-2.091,15.083-6.251C514.091,497.411,514.091,483.928,505.749,475.587zM202.667,362.669c-88.235,0-160-71.765-160-160s71.765-160,160-160s160,71.765,160,160S290.901,362.669,202.667,362.669z"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <input class="header-content-search__bar" type="search" placeholder="Search...">
+                    </div>
+                    <div class="header-content-account">
+                        <a href="#" class="header-content-account__link active">My account</a>
+                        <a href="#" class="header-content-account__icon">
+                            <svg class="account icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m512 256c0-141.488281-114.496094-256-256-256-141.488281 0-256 114.496094-256 256 0 140.234375 113.539062 256 256 256 141.875 0 256-115.121094 256-256zm-256-226c124.617188 0 226 101.382812 226 226 0 45.585938-13.558594 89.402344-38.703125 126.515625-100.96875-108.609375-273.441406-108.804687-374.59375 0-25.144531-37.113281-38.703125-80.929687-38.703125-126.515625 0-124.617188 101.382812-226 226-226zm-168.585938 376.5c89.773438-100.695312 247.421876-100.671875 337.167969 0-90.074219 100.773438-247.054687 100.804688-337.167969 0zm0 0"/>
+                                <path d="m256 271c49.625 0 90-40.375 90-90v-30c0-49.625-40.375-90-90-90s-90 40.375-90 90v30c0 49.625 40.375 90 90 90zm-60-120c0-33.085938 26.914062-60 60-60s60 26.914062 60 60v30c0 33.085938-26.914062 60-60 60s-60-26.914062-60-60zm0 0"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="header-promotion">
+        <div class="header-promotion" style="background-image: url(img/bg.jpg)">
             <div class="container">
-                <div class="header-promotion-left">
-                    <div class="header-promotion-left__title">
-                        Chill weekends
+                <div class="header-promotion-inner">
+                    <div class="header-promotion-left">
+                        <div class="header-promotion-left__title title">
+                            Chill weekends
+                        </div>
+                        <div class="header-promotion-left__title-regular title">
+                            Scenes
+                        </div>
+                        <a href="#" class="header-promotion-left__shop-button shop-button">shop now</a>
                     </div>
-                    <div class="header-promotion-left__title-regular">
-                        Scenes
+                    <div class="header-promotion-right">
+                        <p class="header-promotion-right__text">This mini style is made from tan leather</p>
+                        <div class="header-promotion-right__title title">Peekaboo micro inspiration for spring</div>
+                        <a href="#" class="header-promotion-right__shop-button shop-button">shop now</a>
                     </div>
-                    <a href="#" class="header-promotion-left__shop-button shop-button">shop now</a>
-                </div>
-                <div class="header-right">
-                    <p class="header-right__text">This mini style is made from tan leather</p>
-                    <div class="header-right__subtitle"></div>
-                    <div class="header-right__title"></div>
-                    <a href="#" class="header-promotion-right__shop-button shop-button">shop now</a>
                 </div>
             </div>
         </div>
     </header>
+    <!-- /header -->
+
+    <!-- offers-->
+    <section class="offers">
+        <div class="container">
+            offers
+        </div>
+    </section>
+    <!-- /offers-->
+
+    <!-- featured items-->
+    <section class="featured items">
+        <div class="container">
+            featured items
+        </div>
+    </section>
+    <!-- /featured items-->
+
+    <!-- quote -->
+    <section class="quote">
+        <div class="container">
+            quote
+        </div>
+    </section>
+    <!-- /quote-->
+
+    <!-- about-us -->
+    <section class="about-us">
+        <div class="container">
+            about us
+        </div>
+    </section>
+    <!-- /about-us -->
+
+    <!-- characters -->
+    <section class="characters">
+        <div class="container">
+            characters
+        </div>
+    </section>
+    <!-- /characters -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            footer
+        </div>
+    </footer>
+    <!-- /footer -->
 
 </body>
 
