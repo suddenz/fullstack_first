@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -13,14 +9,14 @@ a {
     font-weight: 600;
 }
 
-ul, li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 h1 {
     text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .icon {
@@ -31,19 +27,13 @@ h1 {
     background-color: #a57ee7;
 }
 
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.header__top .container{
+.header__top .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.icons__cart i{
+.icons__cart i {
     line-height: 70px;
     background-color: #fff;
     padding: 0 14px;
@@ -62,7 +52,7 @@ h1 {
     align-items: center;
 }
 
-.header__content ul{
+.header__content ul {
     display: flex;
     justify-content: space-between;
     width: 60%;
