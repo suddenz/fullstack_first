@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -19,6 +20,7 @@ a {
     color: #000;
     font-weight: 600;
 }
+
 .title {
     font-size: 36px;
     font-weight: 700;
@@ -178,7 +180,93 @@ svg {
 /* === /Header === */
 
 /* ==== Offers === */
-.offers__item1, .offers__item2, .offers__item3, .offers__item4 {
-    border: 1px solid  #000;
+.offers {
+    font-family: 'Pacifico', cursive;
+    color: #241d31;
+
 }
+
+.offers-inner {
+    display: grid;
+    grid-template-areas: "item1 item1 item2"
+                         "item3 item4 item2";
+}
+
+.offers__item {
+    display: flex;
+    margin: 12px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.offers__button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.item1, .item3 {
+    margin-left: 0;
+}
+
+.item1 {
+    grid-area: item1;
+    padding: 50px;
+}
+
+.item2 {
+    display: inline-block;
+    grid-area: item2;
+    margin-right: 0;
+}
+
+.item3 {
+    grid-area: item3;
+    padding: 180px 0;
+}
+
+.item4 {
+    grid-area: item4;
+    padding: 180px 0;
+}
+
+.item1__box, .item3__box, .item4__box {
+    display: inline-block;
+    padding: 25px 70px;
+    background: rgba(255, 255, 255,0.4);   
+}
+
+
+.item1__box {
+    text-align: center;
+}
+
+.item2__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #a57ee7;
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    color: #fff;
+}
+
+
+.item1__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.item1__subtitle {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
 /* ==== /Offers === */
+
+/* === Featured items ===*/
+
+/* === /Featured items ===*/
